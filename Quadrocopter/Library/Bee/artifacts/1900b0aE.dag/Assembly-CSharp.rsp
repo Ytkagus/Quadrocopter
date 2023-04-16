@@ -351,6 +351,7 @@
 "Assets/Scripts/FollowTargetCamera.cs"
 "Assets/Scripts/HelicopterController.cs"
 "Assets/Scripts/HeliRotorController.cs"
+"Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/LookAtTargetController.cs"
 "Assets/Scripts/Magnit.cs"
 "Assets/Scripts/Plate.cs"
