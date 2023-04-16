@@ -4,8 +4,9 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
-    private void OnMouseDown()
+    public int sceneNumber;
+    private void Transition()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(sceneNumber);
     }
 }

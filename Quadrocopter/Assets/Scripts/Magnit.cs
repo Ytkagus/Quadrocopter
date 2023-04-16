@@ -38,7 +38,7 @@ public class Magnit : MonoBehaviour
     }
     public void OnRelease()
     {
-        if (Input.GetKeyUp(KeyCode.R))
+        if (Input.GetKeyUp(KeyCode.F))
         { 
             isPresed = false;
             connected = null;
