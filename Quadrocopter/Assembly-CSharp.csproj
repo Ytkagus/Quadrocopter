@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Plate.cs" />
     <Compile Include="Assets\Scripts\LookAtTargetController.cs" />
+    <Compile Include="Assets\Scripts\MenuTEst.cs" />
     <Compile Include="Assets\Scripts\HelicopterController.cs" />
     <Compile Include="Assets\Scripts\HeliRotorController.cs" />
     <Compile Include="Assets\Scripts\FollowTargetCamera.cs" />
@@ -66,11 +67,11 @@
     <Compile Include="Assets\Scripts\Magnit.cs" />
     <Compile Include="Assets\Scripts\PressedKeyCode.cs" />
     <Compile Include="Assets\Scripts\ControlPanel.cs" />
-    <Compile Include="Assets\Scripts\LevelManager.cs" />
-    <Compile Include="Assets\Scripts\UIGameController.cs" />
-    <Compile Include="Assets\Scripts\JointMagnit.cs" />
-    <Compile Include="Assets\Scripts\MenuTEst.cs" />
     <Compile Include="Assets\Scripts\MenuBack.cs" />
+    <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\JointMagnit.cs" />
+    <Compile Include="Assets\Scripts\UIGameController.cs" />
+    <Compile Include="Assets\Scripts\MenuInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

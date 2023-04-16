@@ -356,6 +356,7 @@
 "Assets/Scripts/LookAtTargetController.cs"
 "Assets/Scripts/Magnit.cs"
 "Assets/Scripts/MenuBack.cs"
+"Assets/Scripts/MenuInfo.cs"
 "Assets/Scripts/MenuTEst.cs"
 "Assets/Scripts/Plate.cs"
 "Assets/Scripts/PressedKeyCode.cs"

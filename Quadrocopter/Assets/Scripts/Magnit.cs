@@ -5,44 +5,24 @@ using UnityEngine.Events;
 
 public class Magnit : MonoBehaviour
 {
-    Transform connected;
-    Vector3 offset;
-    bool isPresed = false;
 
-    private void Start()
+    public Rigidbody droneRB;
+    Vector3 concectedOffset = new Vector3(0, -10, 0);
+
+    private void Up()
     {
-        isPresed = false;
+
     }
-    private void Update()
+
+    private void OnTriggerEnter(Collider other)
     {
-        if ((connected != null) && (isPresed = true))
+        HingeJoint joint = other.GetComponent<HingeJoint>();
+
+        if (other.GetComponent<HingeJoint>())
         {
-            connected.position = transform.position + offset;
+            joint.connectedBody = droneRB;
+            joint.autoConfigureConnectedAnchor = false;
+            joint.connectedAnchor = concectedOffset;
         }
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (isPresed)
-        {
-            connected = collision.transform;
-            offset = connected.position - transform.position;
-        }
-        
-    }
-    public void OnPress()
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            isPresed = true;
-        }
-    }
-    public void OnRelease()
-    {
-        if (Input.GetKeyUp(KeyCode.F))
-        { 
-            isPresed = false;
-            connected = null;
-        }
-        
     }
 }
